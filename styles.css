@@ -1,0 +1,171 @@
+* {
+  font-family: system-ui !important;
+}
+
+body {
+  background-color: #eceff1;
+  margin: 0;
+}
+
+#monitors {
+  background-image: url('monitors.png');
+  width: 500px;
+}
+
+#mac {
+  background-image: url('mac-go.png');
+  width: 425px;
+}
+
+#forgot-password-content {
+  grid-template-rows: 110px 110px 58px 80px;
+}
+
+#forgot-password-text > p {
+  margin-bottom: 10px;
+}
+
+.main-image {
+  background-repeat: no-repeat;
+  height: 209px;
+  margin: -110px auto 0 auto;
+}
+
+.heading {
+  color: #fff;
+  text-align: center;
+}
+
+.blue-text {
+  color: #02a6f2;
+  font-size: 13px;
+  line-height: 28px;
+  margin: 0;
+}
+
+.page-top {
+  height: 45vh;
+  width: 100vw;
+  background-image: url('backgroundImage.png');
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.page-heading {
+  margin-top: -125px;
+}
+
+.page-heading > h2 {
+  color: #ffffff;
+  font-size: 36px;
+  font-weight: bold;
+  height: 50px;
+  margin: 0;
+}
+
+.page-subheading > h3 {
+  color: #ffffff;
+  font-size: 26px;
+  font-weight: normal;
+  margin: 0;
+}
+
+.page-bottom {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.page-content {
+  width: 525px;
+  height: 326px;
+  z-index: 10;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.3);
+  margin: -65px auto 25px auto;
+  display: grid;
+  grid-template-rows: 140px 75px 58px 80px;
+}
+
+.content-text {
+  text-align: center;
+}
+
+.content-text > p {
+  color: #777d80;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 25px;
+  margin: 5px;
+}
+
+.btn-container {
+  margin: 0 auto;
+}
+
+.complete-btn {
+  height: 40px;
+  width: 235px;
+  transform: scaleX(-1) scaleY(-1) rotate(-180deg);
+  background-color: #00a6f2;
+  box-shadow: 0 0 4px 0 rgba(60, 69, 73, 0.25);
+  border-radius: 5px;
+}
+
+.btn-text {
+  height: 14px;
+  width: 196px;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  line-height: 14px;
+  text-align: center;
+}
+
+.support-text {
+  height: 28px;
+  width: 500px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.page-footer {
+  height: 200px;
+  text-align: center;
+}
+
+.no-reply {
+  color: #90a4ae;
+  margin-bottom: 30px;
+}
+
+.no-reply > p {
+  font-size: 12px;
+  text-align: center;
+}
+
+.line {
+  box-sizing: border-box;
+  height: 2px;
+  width: 486px;
+  border: 1px solid #cfd8dc;
+  margin: 0 auto;
+}
+.foot-text {
+  height: 11px;
+  width: 65px;
+  color: #556771;
+  margin: 0 auto;
+}
+.foot-text > p {
+  font-size: 11px;
+  font-weight: 300;
+  line-height: 13px;
+}
+
+.foot-logo {
+  margin: 0 auto;
+}
